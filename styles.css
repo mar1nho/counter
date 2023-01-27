@@ -1,0 +1,78 @@
+#corpo{
+    border: 2px inset black;
+    margin: auto;
+    width: 30rem;
+    height: 15rem;
+    text-align: center;
+    border-radius:  10px 10px 0px 0px;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    transform: translate(0%, 40%);
+    box-shadow: 1px 1px 1px 1px black;
+    background-image: linear-gradient(to bottom, #DCDCDC, #C0C0C0,#A9A9A9,#696969,#000000);
+}
+#func{
+    border: 2px inset black;
+    margin: auto;
+    width: 30rem;
+    text-align: center;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+    transform: translate(0%, 190%);
+    box-shadow: 1px 1px 1px 1px black;
+}
+h1{
+    padding-top: 1.5rem;
+    padding-bottom: 1.8rem;
+    font-size: 3rem;
+    font-family: monospace;
+    color: #E0FFFF;
+    border: 2px inset whitesmoke;
+    border-radius: 5px;
+    width: 20rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px black ;
+}
+span{
+    font-size: 5rem;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    width: 72.5px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 100px;
+    border: 1px solid #D3D3D3;
+    box-shadow: inset 1px 2px 1px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    border: 2px inset white(0, 0, 0, 0.596);
+    box-shadow: 3px 2px 2px 0.5px rgb(74, 57, 57);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.primary{
+    background-color: #A9A9A9;
+    font-size: 1.5rem;
+}
+.primary:hover{
+    background-color: #778899;
+}
+.secondary{
+    background-color: #E9967A;
+    font-size: 1.5rem;
+}
+.secondary:hover{
+    background-color: #f16758;
+}
+.reloading{
+    background-color: #B22222;
+    font-size: 1.5rem;
+}
+.reloading:hover{
+    background-color: #FF4500;
+}
